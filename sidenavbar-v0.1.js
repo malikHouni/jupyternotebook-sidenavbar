@@ -42,4 +42,3 @@ getTitleContent();
 });
 //$('#sidenavbar').html('');
 //$('#sidenavbar').remove();
-</script>
