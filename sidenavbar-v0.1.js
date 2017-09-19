@@ -17,7 +17,7 @@ var getTitleContent= function(){
 	for(elem in getAllH1){
 		if(isNaN(elem) == false){
 			$(getAllH1[elem]).attr('Name',$(getAllH1[elem]).attr('id'));
-			$("#sidenavbarContent").append('<li style="color:#FFF;opacity: 1;font-weight: bold;font-size:1em"><a style="font-weight: bold;color:#FFF;opacity: 1; font-size:1em;" href="#'+$(getAllH1[elem]).attr('id')+'">'+$(getAllH1[elem]).attr('id')+'</a></li>');
+			$("#sidenavbarContent").append('<li style="color:#FFF;opacity: 1;font-weight: bold;font-size:0.8em"><a style="font-weight: bold;color:#FFF;opacity: 1; font-size:0.8em;" href="#'+$(getAllH1[elem]).attr('id')+'">'+$(getAllH1[elem]).attr('id')+'</a></li>');
 		};
 	};
     //nl, reload sideNavBar
